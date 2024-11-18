@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "dev": "node backend --watch src/server.js"
+  },
+  "keywords": [],
+  "author": "Jadson",
+  "license": "ISC",
+  "description": "Criando um chat.",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0"
+  }
+}
